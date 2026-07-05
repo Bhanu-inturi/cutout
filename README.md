@@ -4,7 +4,7 @@ website link : https://cutout-psi.vercel.app/
 A single-file webpage that removes image backgrounds entirely in your browser. No server, no upload, no dependencies.
 
 ## How it works
-
+ 
 It uses color-distance matching (a chroma-key technique, like a green screen), not AI segmentation. Every pixel is compared to the reference background color; close matches become transparent, distant ones stay opaque, with a soft blend in between.
 
 ## Best results
